@@ -1,0 +1,4 @@
+rootProject.name = 'HALF'
+include 'run'
+findProject(':run')?.name = 'HALF'
+
